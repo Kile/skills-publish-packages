@@ -17,7 +17,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/kile/publish-packages/ignore
+          images: ghcr.io/kile/skills-publish-packages/test
           tags: type=sha
       - name: Login to GHCR
         uses: docker/login-action@v3
